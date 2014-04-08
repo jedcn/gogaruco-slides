@@ -3,7 +3,7 @@
 <div class="content intro">
 	<div class="master-column">
 		<div class="col-title">
-			<h2>Kickoff Parties <small>Thursday, Sep 11</small></h2>
+			<h2>Kickoff Parties <small>Thursday, Sep 18</small></h2>
 		</div>
 		<div class="col-description">
 			<% data.schedule.thursday.each do |event| %>
@@ -18,14 +18,14 @@
 		<table class="is-mobile">
 			<tr>
 				<th></th>
-				<th>Day 1 <small>- Friday, Sep 12</small></th>
+				<th>Day 1 <small>- Friday, Sep 19</small></th>
 			</tr>
 
 			<%= partial :mobile_schedule_day, :locals => { events: data.schedule.friday } %>
 
 			<tr>
 				<th></th>
-				<th>Day 2 <small>- Saturday, Sep 13</small></th>
+				<th>Day 2 <small>- Saturday, Sep 20</small></th>
 			</tr>
 
 			<%= partial :mobile_schedule_day, :locals => { events: data.schedule.saturday } %>
@@ -33,8 +33,8 @@
 		<table class="is-not-mobile schedule-robust">
 			<tr>
 				<th></th>
-				<th>Day 1 <small>- Friday, Sep 12</small></th>
-				<th>Day 2 <small>- Saturday, Sep 13</small></th>
+				<th>Day 1 <small>- Friday, Sep 19</small></th>
+				<th>Day 2 <small>- Saturday, Sep 20</small></th>
 			</tr>
 
 			<% saturday = data.schedule.saturday.dup %>
