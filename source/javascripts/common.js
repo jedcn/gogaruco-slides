@@ -26,25 +26,6 @@ $(document).ready(function(){
 		}
 	});
 
-	// gallery slider
-
-	if (!/iPhone|iPad|iPod|Android|BlackBerry|webOS/i.test(navigator.userAgent)) {
-		confGallery = $('.conference-center-gallery').bxSlider({
-			pager: false,
-			touchEnabled: true
-		});
-		$(document).keyup(function(e) {
-			if (e.keyCode == 37) {
-				confGallery.goToPrevSlide()
-			}
-		});
-		$(document).keyup(function(e) {
-			if (e.keyCode == 39) {
-				confGallery.goToNextSlide()
-			}
-		});
-	}
-
 	// map
 
 	var map = L.mapbox.map('map', 'examples.map-9ijuk24y').setView([37.768284, -122.393491], 15);
