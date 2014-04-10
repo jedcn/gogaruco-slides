@@ -1,34 +1,34 @@
 <%= partial :heading, :locals => { page: data.titles.location } %>
 
 <div class="content intro">
-	<div class="master-column">
-		<h2>Mission Bay Conference Center</h2>
-		<%= image_tag "FPO-conference-center.jpg", alt: "Mission Bay Conference Center", class: "img-float" %>
-		<%= data.location.primary %>
-	</div>
+  <div class="master-column">
+    <h2>Mission Bay Conference Center</h2>
+    <%= image_tag "FPO-conference-center.jpg", alt: "Mission Bay Conference Center", class: "img-float" %>
+    <%= data.location.primary %>
+  </div>
 </div>
 <div class="iframe" id="map"></div>
 <div class="content story">
-	<div class="master-column">
-		<div class="travel-driving">
-			<h2>Driving Directions</h2>
-			<dl>
-				<% data.location.driving.each do |origin| %>
-					<dt><%= origin.title %></dt>
-					<dd><%= origin.description %></dd>
-				<% end %>
-			</dl>
-		</div>
-		<div class="travel-other">
-			<h2>Public Transporation</h2>
-			<dl>
-				<% data.location.publictransit.each do |origin| %>
-					<dt><%= origin.title %></dt>
-					<dd><%= origin.description %></dd>
-				<% end %>
-			</dl>
-			<h2>Parking</h2>
-			<p><%= data.location.parking %></p>
-		</div>
-	</div>
+  <div class="master-column">
+    <div class="travel-driving">
+      <h2>Driving Directions</h2>
+      <dl>
+        <% data.location.driving.each do |origin| %>
+          <dt><%= origin.title %></dt>
+          <dd><%= origin.description %></dd>
+        <% end %>
+      </dl>
+    </div>
+    <div class="travel-other">
+      <h2>Public Transporation</h2>
+      <dl>
+        <% data.location.publictransit.each do |origin| %>
+          <dt><%= origin.title %></dt>
+          <dd><%= origin.description %></dd>
+        <% end %>
+      </dl>
+      <h2>Parking</h2>
+      <p><%= data.location.parking %></p>
+    </div>
+  </div>
 </div>

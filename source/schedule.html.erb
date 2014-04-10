@@ -1,57 +1,57 @@
 <%= partial :heading, :locals => { page: data.titles.schedule } %>
 
 <div class="content intro">
-	<div class="master-column">
-		<div class="col-title">
-			<h2>Kickoff Parties <small>Thursday, Sep 18</small></h2>
-		</div>
-		<div class="col-description">
-			<% data.schedule.thursday.each do |event| %>
-				<h3><%= event.name %> <small><%= event.start %>-<%= event.end%> pm</small></h3>
-				<p><%= event.description %></p>
-			<% end %>
-		</div>
-	</div>
+  <div class="master-column">
+    <div class="col-title">
+      <h2>Kickoff Parties <small>Thursday, Sep 18</small></h2>
+    </div>
+    <div class="col-description">
+      <% data.schedule.thursday.each do |event| %>
+        <h3><%= event.name %> <small><%= event.start %>-<%= event.end%> pm</small></h3>
+        <p><%= event.description %></p>
+      <% end %>
+    </div>
+  </div>
 </div>
 <div class="content story sessions">
-	<div class="master-column">
-		<table class="is-mobile">
-			<tr>
-				<th></th>
-				<th>Day 1 <small>- Friday, Sep 19</small></th>
-			</tr>
+  <div class="master-column">
+    <table class="is-mobile">
+      <tr>
+        <th></th>
+        <th>Day 1 <small>- Friday, Sep 19</small></th>
+      </tr>
 
-			<%= partial :mobile_schedule_day, :locals => { events: data.schedule.friday } %>
+      <%= partial :mobile_schedule_day, :locals => { events: data.schedule.friday } %>
 
-			<tr>
-				<th></th>
-				<th>Day 2 <small>- Saturday, Sep 20</small></th>
-			</tr>
+      <tr>
+        <th></th>
+        <th>Day 2 <small>- Saturday, Sep 20</small></th>
+      </tr>
 
-			<%= partial :mobile_schedule_day, :locals => { events: data.schedule.saturday } %>
-		</table>
-		<table class="is-not-mobile schedule-robust">
-			<tr>
-				<th></th>
-				<th>Day 1 <small>- Friday, Sep 19</small></th>
-				<th>Day 2 <small>- Saturday, Sep 20</small></th>
-			</tr>
+      <%= partial :mobile_schedule_day, :locals => { events: data.schedule.saturday } %>
+    </table>
+    <table class="is-not-mobile schedule-robust">
+      <tr>
+        <th></th>
+        <th>Day 1 <small>- Friday, Sep 19</small></th>
+        <th>Day 2 <small>- Saturday, Sep 20</small></th>
+      </tr>
 
-			<% saturday = data.schedule.saturday.dup %>
-			<% data.schedule.friday.each do |event| %>
-				  <tr class="<%= !event.speaker ? "lunch" : "" %>">
-				    <td><time><%= event.start %>-<%= event.end %></time></td>
+      <% saturday = data.schedule.saturday.dup %>
+      <% data.schedule.friday.each do |event| %>
+          <tr class="<%= !event.speaker ? "lunch" : "" %>">
+            <td><time><%= event.start %>-<%= event.end %></time></td>
 
-				    <%= partial :session, :locals => { event: event } %>
+            <%= partial :session, :locals => { event: event } %>
 
-					  <% next_event = saturday.select { |e| event.start == e.start }.first %>
-					  <% if !next_event.nil? %>
-							<% saturday.delete(next_event) %>
-							<%= partial :session, :locals => { event: next_event } %>
-					  <% end %>
-				  </tr>
-			<% end %>
-		</table>
-		<p class="cta-inline"><a href="/submissions/" class="button">Propose a Talk</a></p>
-	</div>
+            <% next_event = saturday.select { |e| event.start == e.start }.first %>
+            <% if !next_event.nil? %>
+              <% saturday.delete(next_event) %>
+              <%= partial :session, :locals => { event: next_event } %>
+            <% end %>
+          </tr>
+      <% end %>
+    </table>
+    <p class="cta-inline"><a href="/submissions/" class="button">Propose a Talk</a></p>
+  </div>
 </div>

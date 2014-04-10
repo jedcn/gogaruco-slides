@@ -1,36 +1,36 @@
 <%= partial :heading, :locals => { page: data.titles.about } %>
 
 <div class="content intro">
-	<div class="master-column about-team">
-		<h2>Meet the Team</h2>
-		<% data.about.team.each do |member| %>
-		<div>
-			<%= image_tag member.image, alt: member.name %>
-			<dl>
-				<dt><%= member.name %><% unless member.twitter.blank? %><span> | </span><a href="http://twitter.com/<%= member.twitter[1..-1] %>" class="team-twitter-handle"><i class="icon-twitter"></i> <%= member.twitter %></a><% end %></dt>
-				<dd><%= member.bio %></dd>
-			</dl>
-		</div>
-		<% end %>
-	</div>
+  <div class="master-column about-team">
+    <h2>Meet the Team</h2>
+    <% data.about.team.each do |member| %>
+    <div>
+      <%= image_tag member.image, alt: member.name %>
+      <dl>
+        <dt><%= member.name %><% unless member.twitter.blank? %><span> | </span><a href="http://twitter.com/<%= member.twitter[1..-1] %>" class="team-twitter-handle"><i class="icon-twitter"></i> <%= member.twitter %></a><% end %></dt>
+        <dd><%= member.bio %></dd>
+      </dl>
+    </div>
+    <% end %>
+  </div>
 </div>
 <div class="content story">
-	<div class="master-column">
-		<h2>Volunteers</h2>
-		<div class="volunteers">
-		<% data.about.volunteers.each do |member| %>
-			<dl>
-				<dt><%= image_tag member.image, alt: member.name %></dt>
-				<dd>
-					<%= member.name %>
-					<% unless member.twitter.blank? %><br /><a href="http://twitter.com/<%= member.twitter[1..-1] %>" class="team-twitter-handle"><i class="icon-twitter"></i> <%= member.twitter %></a><% end %>
-				</dd>
-			</dl>
-		<% end %>
-		</div>
-		<h2 id="conduct">Code of Conduct</h2>
-		<% data.about.conduct.each do |item| %>
-			<p><%= item.item %></p>
-		<% end %>
-	</div>
+  <div class="master-column">
+    <h2>Volunteers</h2>
+    <div class="volunteers">
+    <% data.about.volunteers.each do |member| %>
+      <dl>
+        <dt><%= image_tag member.image, alt: member.name %></dt>
+        <dd>
+          <%= member.name %>
+          <% unless member.twitter.blank? %><br /><a href="http://twitter.com/<%= member.twitter[1..-1] %>" class="team-twitter-handle"><i class="icon-twitter"></i> <%= member.twitter %></a><% end %>
+        </dd>
+      </dl>
+    <% end %>
+    </div>
+    <h2 id="conduct">Code of Conduct</h2>
+    <% data.about.conduct.each do |item| %>
+      <p><%= item.item %></p>
+    <% end %>
+  </div>
 </div>

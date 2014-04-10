@@ -1,33 +1,33 @@
 <%= partial :heading, :locals => { page: data.titles.home } %>
 
 <div class="content intro">
-	<div class="master-column speakers-home">
-		<% data.speakers.all[0, 5].each do |speaker| %>
-			<% unless speaker.featured.blank? %>
-			<div>
-				<%= image_tag speaker.image, alt: speaker.name %>
-				<dl>
-					<dt><%= speaker.name %></dt>
-					<dd><%= speaker.session %></dd>
-				</dl>
-			</div>
-			<% end %>
-		<% end %>
-		<p class="cta-speakers cta-inline"><a href="/speakers/" class="button">View All Speakers</a></p>
-	</div>
+  <div class="master-column speakers-home">
+    <% data.speakers.all[0, 5].each do |speaker| %>
+      <% unless speaker.featured.blank? %>
+      <div>
+        <%= image_tag speaker.image, alt: speaker.name %>
+        <dl>
+          <dt><%= speaker.name %></dt>
+          <dd><%= speaker.session %></dd>
+        </dl>
+      </div>
+      <% end %>
+    <% end %>
+    <p class="cta-speakers cta-inline"><a href="/speakers/" class="button">View All Speakers</a></p>
+  </div>
 </div>
 <div class="content story">
-	<div class="master-column">
-		<div class="col-title">
-			<h2><%= data.index.subhead %></h2>
-		</div>
-		<div class="col-description">
-			<p><%= data.index.intro %></p>
-			<ul>
-				<% data.index.list.each do |item| %>
-				<li><%= item.item %></li>
-				<% end %>
-			</ul>
-		</div>
-	</div>
+  <div class="master-column">
+    <div class="col-title">
+      <h2><%= data.index.subhead %></h2>
+    </div>
+    <div class="col-description">
+      <p><%= data.index.intro %></p>
+      <ul>
+        <% data.index.list.each do |item| %>
+        <li><%= item.item %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
 </div>

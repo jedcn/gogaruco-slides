@@ -1,52 +1,52 @@
 <%= partial :heading, :locals => { page: data.titles.sponsors } %>
 
 <div class="content intro">
-	<div class="master-column">
-		<div class="col-title">
-			<h2>Sponsors</h2>
-		</div>
-		<div class="col-description">
-			<p>Sponsoring the Golden Gate Ruby Conference is a great way to get access to the top Ruby talent in San Francisco, and from around the world. Whether your goals are recruiting, brand awareness, developer adoption, or anything else, we bring together several hundred highly qualified engineers, in an intimate, network-heavy environment. To learn more about sponsoring, download the <a href="#">Prospectus</a> or contact <a href="#">Leah Silber</a>.</p>
-		</div>
-	</div>
+  <div class="master-column">
+    <div class="col-title">
+      <h2>Sponsors</h2>
+    </div>
+    <div class="col-description">
+      <p>Sponsoring the Golden Gate Ruby Conference is a great way to get access to the top Ruby talent in San Francisco, and from around the world. Whether your goals are recruiting, brand awareness, developer adoption, or anything else, we bring together several hundred highly qualified engineers, in an intimate, network-heavy environment. To learn more about sponsoring, download the <a href="#">Prospectus</a> or contact <a href="#">Leah Silber</a>.</p>
+    </div>
+  </div>
 </div>
 <div class="content story">
-	<div class="master-column sponsors-list">
-		<h2>Diamond</h2>
-		<div>
-			<% data.sponsors.diamond.each do |sponsor| %>
-				<dl>
-					<dt><%= image_tag sponsor.image, alt: sponsor.name %></dt>
-					<dd><%= sponsor.description %></dd>
-				</dl>
-			<% end %>
-		</div>
-		<h2>Platinum</h2>
-		<div>
-			<% data.sponsors.platinum.each do |sponsor| %>
-				<dl>
-					<dt><%= image_tag sponsor.image, alt: sponsor.name %></dt>
-					<dd><%= sponsor.description %></dd>
-				</dl>
-			<% end %>
-		</div>
-		<h2>Gold</h2>
-		<div>
-			<% data.sponsors.platinum.each do |sponsor| %>
-				<dl>
-					<dt><%= image_tag sponsor.image, alt: sponsor.name %></dt>
-					<dd><%= sponsor.description %></dd>
-				</dl>
-			<% end %>
-		</div>
-		<h2>Silver</h2>
-		<div>
-			<% data.sponsors.platinum.each do |sponsor| %>
-				<dl>
-					<dt><%= image_tag sponsor.image, alt: sponsor.name %></dt>
-					<dd><%= sponsor.description %></dd>
-				</dl>
-			<% end %>
-		</div>
-	</div>
+  <div class="master-column sponsors-list">
+    <h2>Diamond</h2>
+    <div>
+      <% data.sponsors.diamond.each do |sponsor| %>
+        <dl>
+          <dt><%= image_tag sponsor.image, alt: sponsor.name %></dt>
+          <dd><%= sponsor.description %></dd>
+        </dl>
+      <% end %>
+    </div>
+    <h2>Platinum</h2>
+    <div>
+      <% data.sponsors.platinum.each do |sponsor| %>
+        <dl>
+          <dt><%= image_tag sponsor.image, alt: sponsor.name %></dt>
+          <dd><%= sponsor.description %></dd>
+        </dl>
+      <% end %>
+    </div>
+    <h2>Gold</h2>
+    <div>
+      <% data.sponsors.platinum.each do |sponsor| %>
+        <dl>
+          <dt><%= image_tag sponsor.image, alt: sponsor.name %></dt>
+          <dd><%= sponsor.description %></dd>
+        </dl>
+      <% end %>
+    </div>
+    <h2>Silver</h2>
+    <div>
+      <% data.sponsors.platinum.each do |sponsor| %>
+        <dl>
+          <dt><%= image_tag sponsor.image, alt: sponsor.name %></dt>
+          <dd><%= sponsor.description %></dd>
+        </dl>
+      <% end %>
+    </div>
+  </div>
 </div>
