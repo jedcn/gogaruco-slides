@@ -12,42 +12,50 @@
 </div>
 <div class="content story">
   <div class="master-column sponsors-list">
-    <h2>Diamond</h2>
-    <div>
-      <% data.sponsors.diamond.each do |sponsor| %>
-        <dl>
-          <!-- <dt><%= image_tag sponsor.image, alt: sponsor.name %></dt> -->
-          <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
-          <dd><%= sponsor.description %></dd>
-        </dl>
-      <% end %>
-    </div>
-    <h2>Platinum</h2>
-    <div>
-      <% data.sponsors.platinum.each do |sponsor| %>
-        <dl>
-          <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
-          <dd><%= sponsor.description %></dd>
-        </dl>
-      <% end %>
-    </div>
-    <h2>Gold</h2>
-    <div>
-      <% data.sponsors.platinum.each do |sponsor| %>
-        <dl>
-          <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
-          <dd><%= sponsor.description %></dd>
-        </dl>
-      <% end %>
-    </div>
-    <h2>Silver</h2>
-    <div>
-      <% data.sponsors.platinum.each do |sponsor| %>
-        <dl>
-          <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
-          <dd><%= sponsor.description %></dd>
-        </dl>
-      <% end %>
-    </div>
+    <% unless data.sponsors.diamond.blank? %>
+      <h2>Diamond</h2>
+      <div>
+        <% data.sponsors.diamond.each do |sponsor| %>
+          <dl>
+            <!-- <dt><%= image_tag sponsor.image, alt: sponsor.name %></dt> -->
+            <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
+            <dd><%= sponsor.description %></dd>
+          </dl>
+        <% end %>
+      </div>
+    <% end %>
+    <% unless data.sponsors.platinum.blank? %>
+      <h2>Platinum</h2>
+      <div>
+        <% data.sponsors.platinum.each do |sponsor| %>
+          <dl>
+            <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
+            <dd><%= sponsor.description %></dd>
+          </dl>
+        <% end %>
+      </div>
+    <% end %>
+    <% unless data.sponsors.gold.blank? %>
+      <h2>Gold</h2>
+      <div>
+        <% data.sponsors.gold.each do |sponsor| %>
+          <dl>
+            <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
+            <dd><%= sponsor.description %></dd>
+          </dl>
+        <% end %>
+      </div>
+    <% end %>
+    <% unless data.sponsors.silver.blank? %>
+      <h2>Silver</h2>
+      <div>
+        <% data.sponsors.silver.each do |sponsor| %>
+          <dl>
+            <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
+            <dd><%= sponsor.description %></dd>
+          </dl>
+        <% end %>
+      </div>
+    <% end %>
   </div>
 </div>
