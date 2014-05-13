@@ -66,30 +66,38 @@
         <h2>Sponsors</h2>
       </div>
       <div class="col-description">
+      <% unless data.sponsors.diamond.blank? %>
         <h3>Diamond Sponsors</h3>
-        <ul>
-          <% data.sponsors.diamond.each do |sponsor| %>
-            <li><%= link_to image_tag(sponsor.image), sponsor.website %></li>
-          <% end %>
-        </ul>
+          <ul>
+              <% data.sponsors.diamond.each do |sponsor| %>
+                <li><%= link_to image_tag(sponsor.image), sponsor.website %></li>
+              <% end %>
+          </ul>
+        <% end %>
+      <% unless data.sponsors.platinum.blank? %>
         <h3>Platinum Sponsors</h3>
         <ul>
           <% data.sponsors.platinum.each do |sponsor| %>
             <li><%= link_to image_tag(sponsor.image), sponsor.website %></li>
           <% end %>
         </ul>
+      <% end %>
+      <% unless data.sponsors.gold.blank? %>
         <h3>Gold Sponsors</h3>
         <ul>
           <% data.sponsors.gold.each do |sponsor| %>
             <li><%= link_to image_tag(sponsor.image), sponsor.website %></li>
           <% end %>
         </ul>
+      <% end %>
+      <% unless data.sponsors.silver.blank? %>
         <h3>Silver Sponsors</h3>
         <ul>
           <% data.sponsors.silver.each do |sponsor| %>
             <li><%= link_to image_tag(sponsor.image), sponsor.website %></li>
           <% end %>
         </ul>
+      <% end %>
       </div>
     </div>
   </div>
