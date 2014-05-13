@@ -4,11 +4,11 @@ team:
     image: "team/team-leah.jpg"
     twitter: "@wifelette"
   - name: "Josh Susser"
-    bio: "<p>Leah is an all-around open source advocate. During the day time, she's one of the founders at Tilde, an open-source-centric consultancy. In her spare time, in addition to running GoGaRuCo, Leah is responsible for fundraising and event management as a member of the jQuery Core Team.</p><p>She previously worked as a consultant for clients in the tech sector, and was employed managing the Community Marketing and Events department at Engine Yard. She is originally from Brooklyn, NY and now lives in San Francisco, CA with her husband.</p>"
+    bio: "<p>Josh likes to say that Ruby is the love child of Lisp and Smalltalk, raised by Perl the eccentric nanny. At Pivotal Labs he spent the last several years developing Rails web applications for clients, and he is a high-ranked contributor to the Rails open source project. He has spoken at RailsConf, regional conferences and meetups.</p><p>In past lives he's done Smalltalk VM implementation, spent too much time at Apple building the ill-fated OpenDoc, and helped design the Java VM that runs on the SIM card in your iPhone. You can find his blog at <a href=http://blog.hasmanythrough.com>blog.hasmanythrough.com</a>.</p>"
     image: "team/team-josh.jpg"
     twitter: "@joshsusser"
   - name: "Jim Meyer"
-    bio: "<p>Leah is an all-around open source advocate. During the day time, she's one of the founders at Tilde, an open-source-centric consultancy. In her spare time, in addition to running GoGaRuCo, Leah is responsible for fundraising and event management as a member of the jQuery Core Team.</p><p>She previously worked as a consultant for clients in the tech sector, and was employed managing the Community Marketing and Events department at Engine Yard. She is originally from Brooklyn, NY and now lives in San Francisco, CA with her husband.</p>"
+    bio: "<p>With a career that's ranged from freelance graphic design to large scale distributed computing systems architecture to leading technology organizations, Jim is a renaissance man, a geek of all trades, or (most likely) an advanced case of ADD in search of the next challenging distraction.</p><p>He currently works at Rackspace, and is a father of three and husband of one, all of whom make him a better person on a daily basis (and none of whom speak in third person).</p>"
     image: "team/team-jim.jpg"
     twitter: "@purp"
 volunteers:
@@ -28,7 +28,7 @@ volunteers:
     image: "team/team-sarah.jpg"
     twitter: "@sarahmei"
   - name: "Ryan McDonald"
-    image: "team-ryan.jpg"
+    image: "team/team-ryan.jpg"
     twitter: "@rjmcdonald83"
 conduct:
   - item: "Golden Gate Ruby Conference (GoGaRuCo) is meant to be an inclusive, welcoming conference for everyone. We will not permit harassment of conference participants in any form. Participants asked to stop any harassing behavior are expected to comply immediately."
