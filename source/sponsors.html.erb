@@ -17,8 +17,7 @@
       <div>
         <% data.sponsors.diamond.each do |sponsor| %>
           <dl>
-            <!-- <dt><%= image_tag sponsor.image, alt: sponsor.name %></dt> -->
-            <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
+            <dt><%= link_to image_tag(sponsor.lighter_image, alt: sponsor.name) , sponsor.website%></dt>
             <dd><%= sponsor.description %></dd>
           </dl>
         <% end %>
@@ -29,7 +28,7 @@
       <div>
         <% data.sponsors.platinum.each do |sponsor| %>
           <dl>
-            <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
+            <dt><%= link_to image_tag(sponsor.lighter_image, alt: sponsor.name) , sponsor.website%></dt>
             <dd><%= sponsor.description %></dd>
           </dl>
         <% end %>
@@ -40,7 +39,7 @@
       <div>
         <% data.sponsors.gold.each do |sponsor| %>
           <dl>
-            <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
+            <dt><%= link_to image_tag(sponsor.lighter_image, alt: sponsor.name) , sponsor.website%></dt>
             <dd><%= sponsor.description %></dd>
           </dl>
         <% end %>
@@ -51,7 +50,7 @@
       <div>
         <% data.sponsors.silver.each do |sponsor| %>
           <dl>
-            <dt><%= link_to image_tag(sponsor.image, alt: sponsor.name) , sponsor.website%></dt>
+            <dt><%= link_to image_tag(sponsor.lighter_image, alt: sponsor.name) , sponsor.website%></dt>
             <dd><%= sponsor.description %></dd>
           </dl>
         <% end %>
