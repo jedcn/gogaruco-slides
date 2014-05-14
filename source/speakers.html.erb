@@ -7,7 +7,7 @@
         <div id="<%= speaker.anchor %>">
           <h2><%= speaker.name %></h2>
           <%= image_tag speaker.image, alt: speaker.name %>
-          <p><%= speaker.description %></p>
+          <p class="bio"><%= speaker.description %></p>
           <p>
             <%= session_link speaker %>
             <% unless speaker.twitter.blank? %>

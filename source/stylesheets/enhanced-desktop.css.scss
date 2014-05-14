@@ -54,6 +54,10 @@ h2 {
     }
   }
 }
+.speakers-list div .bio {
+  a:link, a:visited { font-weight: bold; }
+  a:hover { text-decoration: underline ; }
+}
 .about-team {
   div {
     img {
