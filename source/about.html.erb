@@ -8,7 +8,7 @@
       <%= image_tag member.image, alt: member.name %>
       <dl>
         <dt><%= member.name %><% unless member.twitter.blank? %><span> | </span><a href="http://twitter.com/<%= member.twitter[1..-1] %>" class="team-twitter-handle"><i class="icon-twitter"></i> <%= member.twitter %></a><% end %></dt>
-        <dd><%= member.bio %></dd>
+        <dd class="bio"><%= member.bio %></dd>
       </dl>
     </div>
     <% end %>
