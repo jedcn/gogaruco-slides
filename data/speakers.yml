@@ -1,7 +1,7 @@
 all:
   - name: "Yehuda Katz"
     image: "speakers/ykatz.jpg"
-    description: "word"
+    description: "Yehuda Katz is a member of the  Ember.js, Ruby on Rails and jQuery Core Teams; his 9-to-5 home is at the startup he founded, <a href=http://www.tilde.io>Tilde Inc</a>, where he works on <a href=http://www.skylight.io>Skylight﻿</a>, the smart profiler for Rails. Yehuda spends most of his time hacking on open source—his main projects, along with others, like Thor, Handlebars and Janus—and traveling the world doing open source evangelism work."
     session: "Topic TBD"
     twitter: "@wycats"
     anchor: "YehudaKatz"

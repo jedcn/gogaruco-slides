@@ -1,4 +1,9 @@
 diamond:
+  - name: "Skylight"
+    lighter_image: "sponsors/skylight.png"
+    darker_image: "sponsors/skylight.png"
+    description: "Skylight﻿ is a smart profiler that lets you quickly diagnose and resolve performance issues with your Rails apps where it matters: in production. It's built by the fine folks at <a href=http://www.tilde.io>Tilde Inc</a>, who have spent the last few years building open source projects like Ember, Handlebars and Rails itself. Visit skylight.io to start your free trial."
+    website: "http://www.skylight.io"
 platinum:
 gold:
 silver:
