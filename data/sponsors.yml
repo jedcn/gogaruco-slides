@@ -1,9 +1,15 @@
 diamond:
   - name: "Skylight"
-    lighter_image: "sponsors/skylight.png"
-    darker_image: "sponsors/skylight.png"
+    lighter_image: "sponsors/skylight-pages.png"
+    darker_image: "sponsors/skylight-footer.png"
     description: "Skylight﻿ is a smart profiler that lets you quickly diagnose and resolve performance issues with your Rails apps where it matters: in production. It's built by the fine folks at <a href=http://www.tilde.io>Tilde Inc</a>, who have spent the last few years building open source projects like Ember, Handlebars and Rails itself. Visit skylight.io to start your free trial."
     website: "http://www.skylight.io"
 platinum:
 gold:
 silver:
+  - name: "StickerMule"
+    lighter_image: "sponsors/stickermule-pages.png"
+    darker_image: "sponsors/stickermule-footer.png"
+    description: "Sticker Mule is the fastest and easiest way to buy custom stickers. We offer free online proofs, 5 day turnaround and free UPS Ground shipping. With print runs starting at $49, we aim to be the Internet's favorite sticker printer."
+    website: "http://www.stickermule.com"
+
