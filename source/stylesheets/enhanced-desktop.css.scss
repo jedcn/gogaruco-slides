@@ -54,6 +54,10 @@ h2 {
     }
   }
 }
+.speakers-list div .bio, .about-team .bio {
+  a:link, a:visited { font-weight: bold; }
+  a:hover { text-decoration: underline ; }
+}
 .about-team {
   div {
     img {
@@ -391,4 +395,25 @@ table {
       padding-left: 2.35765%;
     }
   }
+}
+/* FOOTER
+--------------------------------------------------*/
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  background-color: $color-blue-light;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 100px;
 }

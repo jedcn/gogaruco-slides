@@ -1,20 +1,9 @@
 diamond:
   - name: "Skylight"
-    image: "sponsors/skylight.png"
+    lighter_image: "sponsors/skylight.png"
+    darker_image: "sponsors/skylight.png"
     description: "Skylight﻿ is a smart profiler that lets you quickly diagnose and resolve performance issues with your Rails apps where it matters: in production. It's built by the fine folks at <a href=http://www.tilde.io>Tilde Inc</a>, who have spent the last few years building open source projects like Ember, Handlebars and Rails itself. Visit skylight.io to start your free trial."
     website: "http://www.skylight.io"
 platinum:
-  # - name: "Loggly"
-  #   image: "sponsors/skylight.png"
-  #   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ipsum architecto impedit saepe velit aliquam quis obcaecati mollitia. Exercitationem, veniam nihil sapiente impedit ea repudiandae fuga saepe consequuntur qui ut."
-  #   website: "http://loggly.com"
 gold:
-  # - name: "Hulu"
-  #   image: "sponsors/skylight.png"
-  #   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ipsum architecto impedit saepe velit aliquam quis obcaecati mollitia. Exercitationem, veniam nihil sapiente impedit ea repudiandae fuga saepe consequuntur qui ut."
-  #   website: "http://hulu.com"
 silver:
-  # - name: "New Relic"
-  #   image: "sponsors/skylight.png"
-  #   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ipsum architecto impedit saepe velit aliquam quis obcaecati mollitia. Exercitationem, veniam nihil sapiente impedit ea repudiandae fuga saepe consequuntur qui ut."
-  #   website: "http://newrelic.com"
