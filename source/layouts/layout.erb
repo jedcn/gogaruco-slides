@@ -32,76 +32,78 @@
 </head>
 
 <body class="<%= page_classes %>">
-  <header>
-    <nav>
-      <p class="nav-icon-mobile"><i class="icon-reorder"></i></p>
-      <ul>
-        <li class="location-info">UCSF Mission Bay, San Francisco / Sep 19-20, 2014</li>
-        <li class="home-id"><a href="/">Home</a></li>
-        <li class="speakers-id"><a href="/speakers/">Speakers</a></li>
-        <!--<li class="schedule-id"><a href="/schedule/">Schedule</a></li>-->
-        <li class="sponsors-id"><a href="/sponsors/">Sponsors</a></li>
-        <li class="location-id"><a href="/location/">Location</a></li>
-        <li class="about-id"><a href="/about/">About</a></li>
-        <li class="cta-id"><a href="/submissions/" class="button">Propose a Talk</a></li>
-      </ul>
-    </nav>
-    <div class="masthead">
-      <div class="master-column">
-        <h1>
-          <%= yield_content :headline %>
-          <span><%= yield_content :subhead %></span>
-        </h1>
-        <p class="logo"><a href="/"><%= image_tag "logo.svg", alt: "2014 Golden Gate Ruby Conference" %></a></p>
-        <p class="cta"><a href="/submissions/" class="button">Propose a Talk</a></p>
+  <div class="page-wrap">
+    <header>
+      <nav>
+        <p class="nav-icon-mobile"><i class="icon-reorder"></i></p>
+        <ul>
+          <li class="location-info">UCSF Mission Bay, San Francisco / Sep 19-20, 2014</li>
+          <li class="home-id"><a href="/">Home</a></li>
+          <li class="speakers-id"><a href="/speakers/">Speakers</a></li>
+          <!--<li class="schedule-id"><a href="/schedule/">Schedule</a></li>-->
+          <li class="sponsors-id"><a href="/sponsors/">Sponsors</a></li>
+          <li class="location-id"><a href="/location/">Location</a></li>
+          <li class="about-id"><a href="/about/">About</a></li>
+          <li class="cta-id"><a href="/submissions/" class="button">Propose a Talk</a></li>
+        </ul>
+      </nav>
+      <div class="masthead">
+        <div class="master-column">
+          <h1>
+            <%= yield_content :headline %>
+            <span><%= yield_content :subhead %></span>
+          </h1>
+          <p class="logo"><a href="/"><%= image_tag "logo.svg", alt: "2014 Golden Gate Ruby Conference" %></a></p>
+          <p class="cta"><a href="/submissions/" class="button">Propose a Talk</a></p>
+        </div>
       </div>
+    </header>
+    <div class="content">
+      <%= yield %>
     </div>
-  </header>
-  <div class="content">
-    <%= yield %>
-  </div>
-  <div class="sponsors-global">
-    <div class="master-column">
-      <div class="col-title">
-        <h2>Sponsors</h2>
-      </div>
-      <div class="col-description">
-      <% unless data.sponsors.diamond.blank? %>
-        <h3>Diamond Sponsors</h3>
+    <div class="sponsors-global">
+      <div class="master-column">
+        <div class="col-title">
+          <h2>Sponsors</h2>
+        </div>
+        <div class="col-description">
+        <% unless data.sponsors.diamond.blank? %>
+          <h3>Diamond Sponsors</h3>
+            <ul>
+                <% data.sponsors.diamond.each do |sponsor| %>
+                  <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
+                <% end %>
+            </ul>
+          <% end %>
+        <% unless data.sponsors.platinum.blank? %>
+          <h3>Platinum Sponsors</h3>
           <ul>
-              <% data.sponsors.diamond.each do |sponsor| %>
-                <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
-              <% end %>
+            <% data.sponsors.platinum.each do |sponsor| %>
+              <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
+            <% end %>
           </ul>
         <% end %>
-      <% unless data.sponsors.platinum.blank? %>
-        <h3>Platinum Sponsors</h3>
-        <ul>
-          <% data.sponsors.platinum.each do |sponsor| %>
-            <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
-          <% end %>
-        </ul>
-      <% end %>
-      <% unless data.sponsors.gold.blank? %>
-        <h3>Gold Sponsors</h3>
-        <ul>
-          <% data.sponsors.gold.each do |sponsor| %>
-            <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
-          <% end %>
-        </ul>
-      <% end %>
-      <% unless data.sponsors.silver.blank? %>
-        <h3>Silver Sponsors</h3>
-        <ul>
-          <% data.sponsors.silver.each do |sponsor| %>
-            <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
-          <% end %>
-        </ul>
-      <% end %>
+        <% unless data.sponsors.gold.blank? %>
+          <h3>Gold Sponsors</h3>
+          <ul>
+            <% data.sponsors.gold.each do |sponsor| %>
+              <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
+            <% end %>
+          </ul>
+        <% end %>
+        <% unless data.sponsors.silver.blank? %>
+          <h3>Silver Sponsors</h3>
+          <ul>
+            <% data.sponsors.silver.each do |sponsor| %>
+              <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
+            <% end %>
+          </ul>
+        <% end %>
+        </div>
       </div>
     </div>
   </div>
-  <footer>
+  <footer class="site-footer">
     <div class="master-column">
       <p class="ownership">©2014 Golden Gate Ruby Conference, LLC<br />Website by <a href="http://www.wearebunker.com/">Bunker</a> <span>/</span> Illustrations by <a href="http://neinercreative.com/">John Neiner</a></p>
       <p class="archive">Previous years<br /><a href="http://2009.gogaruco.com/">2009</a> <span>/</span> <a href="http://2010.gogaruco.com/">2010</a> <span>/</span> <a href="http://2011.gogaruco.com/">2011</a> <span>/</span> <a href="http://2012.gogaruco.com/">2012</a> <span>/</span> <a href="http://2013.gogaruco.com/">2013</a></p>
