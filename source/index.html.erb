@@ -7,9 +7,9 @@
         <% data.speakers.all[0, 5].each do |speaker| %>
           <% unless speaker.featured.blank? %>
           <div>
-            <%= image_tag speaker.image, alt: speaker.name %>
+          <%= link_to image_tag( speaker.image, alt: speaker.name), "speakers##{speaker.anchor}"%>
             <dl>
-              <dt><%= speaker.name %></dt>
+              <dt><%= link_to speaker.name, "speakers##{speaker.anchor}" %></dt>
               <dd><%= speaker.session %></dd>
             </dl>
           </div>
