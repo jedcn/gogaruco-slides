@@ -260,6 +260,7 @@ header {
     .speakers-home {
       @include outer-container;
       $grid-columns: 10;
+      dt a { color: #fff }
       .speakers-inner {
         // Change me to center feature speaker images
         // 4 speakers
