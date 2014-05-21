@@ -7,9 +7,9 @@ diamond:
 platinum:
   - name: "Skylight"
     lighter_image: "sponsors/sharethrough-pages.png"
-    darker_image: "sponsors/sharethrough-pages.png"
+    darker_image: "sponsors/sharethrough-footer.png"
     description: "Sharethrough is tackling the hardest problems in big data, machine learning and auction theory to make advertising better for publishers and consumers. Come chat with a Sharethrough engineer at GoGaRuCo if you want some cool swag and to hear about the challenges of building distributed systems, what its like writing production Scala alongside Rails, and the latest techniques in machine learning and data analysis."
-    website: "http://www.skylight.io"
+    website: "http://www.sharethrough.com"
 gold:
 silver:
   - name: "StickerMule"
