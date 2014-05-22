@@ -18,7 +18,7 @@ volunteers:
   - name: "John Chow"
     image: "team/team-john.jpg"
     twitter: "@johnkchow"
-  - name: "Sarah Robinson"
+  - name: "Sara Robinson"
     image: "team/team-sara.jpg"
     twitter: "@SRobTweets"
   - name: "Matt Freeman"
@@ -30,6 +30,9 @@ volunteers:
   - name: "Ryan McDonald"
     image: "team/team-ryan.jpg"
     twitter: "@rjmcdonald83"
+  - name: "Ryan Sullivan"
+    image: "team/team-ryan2.jpg"
+    twitter: "@skisulli" 
 conduct:
   - item: "Golden Gate Ruby Conference (GoGaRuCo) is meant to be an inclusive, welcoming conference for everyone. We will not permit harassment of conference participants in any form. Participants asked to stop any harassing behavior are expected to comply immediately."
   - item: "We reserve the right to warn or expel offenders from the conference with no refund, and to bar them from future participation (both speaking and attendance). If you are being harassed, see someone else being harassed, or have any other concerns on-site please contact one of the conference organizers or volunteers (identifiable by their staff shirts) immediately."

@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en-us">
 <head>
-  <title><%= yield_content :title %> | Golden Gate Ruby Conference</title>
+  <title>  Speaker Submissions
+ | Golden Gate Ruby Conference</title>
   <meta charset="utf-8">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,20 +19,20 @@
     .is-mobile { display: none; }
     .is-not-mobile { display: table; }
   </style>
-  <%= stylesheet_link_tag "styles", media: "screen, handheld, print, projection", rel: "stylesheet" %>
-  <%= stylesheet_link_tag "enhanced-mobile", media: "screen and (min-device-width:320px)", rel: "stylesheet" %>
-  <%= stylesheet_link_tag "enhanced-desktop", media: "screen and (min-device-width:768px) and (min-width:768px), print, projection", rel: "stylesheet" %>
-  <%= stylesheet_link_tag "https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css", media: "screen, handheld, print, projection", rel: "stylesheet" %>
-  <%#= stylesheet_link_tag "jquery.bxslider", media: "screen", rel: "stylesheet" %>
+  <link href="/stylesheets/styles.css" media="screen, handheld, print, projection" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/enhanced-mobile.css" media="screen and (min-device-width:320px)" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/enhanced-desktop.css" media="screen and (min-device-width:768px) and (min-width:768px), print, projection" rel="stylesheet" type="text/css" />
+  <link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css" media="screen, handheld, print, projection" rel="stylesheet" type="text/css" />
+  
   <!--[if lt IE 9]>
-  <%= stylesheet_link_tag "styles", media: "all", rel: "stylesheet" %>
-  <%= stylesheet_link_tag "enhanced-mobile", media: "all", rel: "stylesheet" %>
-  <%= stylesheet_link_tag "enhanced-desktop", media: "all", rel: "stylesheet" %>
-  <%= javascript_include_tag "html5shiv" %>
+  <link href="/stylesheets/styles.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/enhanced-mobile.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/enhanced-desktop.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/html5shiv.js" type="text/javascript"></script>
   <![endif]-->
 </head>
 
-<body class="<%= page_classes %>">
+<body class="submissions submissions_index">
   <div class="page-wrap">
     <header>
       <nav>
@@ -50,16 +51,40 @@
       <div class="masthead">
         <div class="master-column">
           <h1>
-            <%= yield_content :headline %>
-            <span><%= yield_content :subhead %></span>
+              Propose a Talk
+
+            <span>  
+</span>
           </h1>
-          <p class="logo"><a href="/"><%= image_tag "logo.svg", alt: "2014 Golden Gate Ruby Conference" %></a></p>
+          <p class="logo"><a href="/"><img alt="2014 Golden Gate Ruby Conference" src="/images/logo.svg" /></a></p>
           <p class="cta"><a href="/submissions/" class="button">Propose a Talk</a></p>
         </div>
       </div>
     </header>
     <div class="content">
-      <%= yield %>
+      
+
+
+<div class="content intro">
+  <div class="master-column">
+    
+    <p>Golden Gate Ruby Conference is now accepting proposals for talks. GoGaRuCo 2014 happens September 19-20 in San Francisco.</p>
+    
+    <p>Proposals will be accepted through Sunday, June 8th, at midnight PDT.</p>
+    
+    <p>Talks will be 30 minutes with no extra time for questions. Remember that nearly all our attendees use Ruby daily, so talks should be for an audience of intermediate or advanced Rubyists. Non-Ruby topics are acceptable if they are somehow related to Ruby, or just seriously awesome.</p>
+    
+    <p>If your talk is selected you will receive a free pass to attend the conference and get some special speaker swag too. At that point we may get in touch for some other info for the website/program.</p>
+    
+    <p>GoGaRuCo is intended to be an inclusive, welcoming conference for everyone. Visit the <a href=/about#conduct>Code of Conduct</a> for more.</p>
+    
+  </div>
+</div>
+<div class="content story">
+  <div class="master-column iframe">
+    <iframe seamless="seamless" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://tilde.wufoo.com/embed/m3ujx7w0v9xi6z/"><a href="https://tilde.wufoo.com/forms/m3ujx7w0v9xi6z/">Fill out my Wufoo form!</a></iframe>
+  </div>
+</div>
     </div>
     <div class="sponsors-global">
       <div class="master-column">
@@ -67,45 +92,38 @@
           <h2>Sponsors</h2>
         </div>
         <div class="col-description">
-        <% unless data.sponsors.diamond.blank? %>
+        
           <h3>Diamond Sponsors</h3>
             <ul>
-                <% data.sponsors.diamond.each do |sponsor| %>
-                  <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
-                <% end %>
+                
+                  <li><a href="http://www.skylight.io"><img src="/images/sponsors/skylight-footer.png" /></a></li>
+                
             </ul>
-          <% end %>
-        <% unless data.sponsors.platinum.blank? %>
+          
+        
           <h3>Platinum Sponsors</h3>
           <ul>
-            <% data.sponsors.platinum.each do |sponsor| %>
-              <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
-            <% end %>
+            
+              <li><a href="http://www.skylight.io"><img src="/images/sponsors/sharethrough-pages.png" /></a></li>
+            
           </ul>
-        <% end %>
-        <% unless data.sponsors.gold.blank? %>
-          <h3>Gold Sponsors</h3>
-          <ul>
-            <% data.sponsors.gold.each do |sponsor| %>
-              <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
-            <% end %>
-          </ul>
-        <% end %>
-        <% unless data.sponsors.silver.blank? %>
+        
+        
+        
           <h3>Silver Sponsors</h3>
           <ul>
-            <% data.sponsors.silver.each do |sponsor| %>
-              <li><%= link_to image_tag(sponsor.darker_image), sponsor.website %></li>
-            <% end %>
+            
+              <li><a href="http://www.stickermule.com"><img src="/images/sponsors/stickermule-footer.png" /></a></li>
+            
           </ul>
-        <% end %>
+        
         </div>
       </div>
     </div>
   </div>
   <footer class="site-footer">
     <div class="master-column">
-      <p class="ownership"><a href="/images/GGRC14—Prospectus-V1.pdf">Download the Sponsorship Prospectus</a><br />©2014 Golden Gate Ruby Conference, LLC<br />Website by <a href="http://www.wearebunker.com/">Bunker</a> <span>/</span> Illustrations by <a href="http://neinercreative.com/">John Neiner</a></p>
+      <p class="ownership">©2014 Golden Gate Ruby Conference, LLC<br />Website by <a href="http://www.wearebunker.com/">Bunker</a> <span>/</span> Illustrations by <a href="http://neinercreative.com/">John Neiner</a></p>
       <p class="archive">Previous years<br /><a href="http://2009.gogaruco.com/">2009</a> <span>/</span> <a href="http://2010.gogaruco.com/">2010</a> <span>/</span> <a href="http://2011.gogaruco.com/">2011</a> <span>/</span> <a href="http://2012.gogaruco.com/">2012</a> <span>/</span> <a href="http://2013.gogaruco.com/">2013</a></p>
     </div>
   </footer>
@@ -113,6 +131,6 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-  <%= javascript_include_tag "common" %>
+  <script src="/javascripts/common.js" type="text/javascript"></script>
 </body>
 </html>
