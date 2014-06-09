@@ -10,5 +10,4 @@ Tilde Golden Gate Ruby Conference Website
 * To run locally and enable livereload, run: bundle exec middleman server
 * To build and deploy after making updates, run: middleman deploy
 
-This is a change Jim made just to push.
 
