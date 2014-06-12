@@ -13,7 +13,7 @@ platinum:
   - name: "Skylight"
     lighter_image: "sponsors/sharethrough-pages.png"
     darker_image: "sponsors/sharethrough-footer.png"
-    description: "Sharethrough is tackling the hardest problems in big data, machine learning and auction theory to make advertising better for publishers and consumers. Come chat with a Sharethrough engineer at GoGaRuCo if you want some cool swag and to hear about the challenges of building distributed systems, what its like writing production Scala alongside Rails, and the latest techniques in machine learning and data analysis."
+    description: "Sharethrough is building technology to power the distribution of meaningful content on the mobile web.  Named one of the “2014 Best Places to Work in the Bay Area”, talk to us if you're interested in working on everything from complex client-side workflows and analytics in Rails and CoffeeScript to real-time decisioning and auction theory in Scala."
     website: "http://www.sharethrough.com"
 gold:
 silver:
