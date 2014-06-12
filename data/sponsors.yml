@@ -4,6 +4,11 @@ diamond:
     darker_image: "sponsors/skylight-footer.png"
     description: "Skylight﻿ is a smart profiler that lets you quickly diagnose and resolve performance issues with your Rails apps where it matters: in production. It's built by the fine folks at <a href=http://www.tilde.io>Tilde Inc</a>, who have spent the last few years building open source projects like Ember, Handlebars and Rails itself. Visit skylight.io to start your free trial."
     website: "http://www.skylight.io"
+  - name: "Bugsnag"
+    lighter_image: "sponsors/bugsnag-pages.png"
+    darker_image: "sponsors/bugsnag-footer.png"
+    description: "Bugsnag detects crashes in your ruby apps, as well as apps written in most other popular programming languages and frameworks, automatically collecting useful diagnostics to help you resolve your errors quickly. Come and say hi at GoGaRuCo to pick up some swag, or sign up on bugsnag.com for a free trial!"
+    website: "http://www.bugsnag.com"
 platinum:
   - name: "Skylight"
     lighter_image: "sponsors/sharethrough-pages.png"
