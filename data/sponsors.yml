@@ -9,6 +9,11 @@ diamond:
     darker_image: "sponsors/bugsnag-footer.png"
     description: "Bugsnag detects crashes in your ruby apps, as well as apps written in most other popular programming languages and frameworks, automatically collecting useful diagnostics to help you resolve your errors quickly. Come and say hi at GoGaRuCo to pick up some swag, or sign up on bugsnag.com for a free trial!"
     website: "http://www.bugsnag.com"
+  - name: "Hired"
+    lighter_image: "sponsors/hired-pages.png"
+    darker_image: "sponsors/hired-footer.png"
+    description: "Hired gets you 5-15 job offers from 700+ VC backed companies that present opportunities to you—disclosing details about salary, signing bonus, and equity before you interview. Hired gives you the ability to source and explore career options seamlessly, in a transparent manner, and then pick the best opportunity for you."
+    website: "http://www.hired.com"
 platinum:
   - name: "Skylight"
     lighter_image: "sponsors/sharethrough-pages.png"
