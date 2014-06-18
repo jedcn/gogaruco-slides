@@ -225,6 +225,11 @@ header {
         float: left;
         margin: 0 1rem 1rem 0;
         width: 8rem;
+        height: 7rem;
+        display: block;
+      }
+      dd {
+        display: block;
       }
     }
   }
@@ -261,13 +266,6 @@ header {
       @include outer-container;
       $grid-columns: 10;
       dt a { color: #fff }
-      .speakers-inner {
-        // Change me to center feature speaker images
-        // 4 speakers
-        //margin-left: 113;
-        margin-left: 220px;
-        width: 100%;
-      }
       .cta-speakers {
         clear: both;
         position: relative;
