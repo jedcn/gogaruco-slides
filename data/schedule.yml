@@ -54,9 +54,9 @@ saturday:
     start: "10:00"
     end: "10:30"
     speaker: "Yehuda Katz"
-    image: FPO-Speaker-Yehuda-Katz.jpg
+    image: "speakers/ykatz.jpeg"
     description: "Data is a hot buzz word in the industry. Every day there are more startups with \"Big Data\" somewhere in their elevator pitch. There are dozens of devices to record how we sleep, what we eat, how much we exercise, even how often we breathe. Every action we take online generates data that is stored and analyzed. Understanding all this data can be difficult. Humans aren't designed to see patterns in thousands of lines of json or XML. We are good at seeing patterns in pictures, graphs, diagrams, and spots in the underbrush. Often a simple visualization is what you need to understand a problem. In this talk, I'll demonstrate tools that you can use to quickly generate \"back-of-the-envelope\" visualizations from a variety of data sets."
-    anchor: "SpeakerFour"
+    anchor: "ykatz"
   - name: "Lunch"
     start: "12:00"
     end: "1:30"

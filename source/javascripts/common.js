@@ -10,7 +10,7 @@ $(document).ready(function(){
 
   // schedule session descriptions
 
-  $('.sessions h3').click(function() {
+  $('.sessions h3, .speaker-page-item h3').click(function() {
     $(this).siblings('.session-description').fadeToggle();
   });
 
