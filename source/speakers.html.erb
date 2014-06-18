@@ -10,10 +10,10 @@
           <h3><%= speaker.session %></h3>
           <p ><%= speaker.session_details%></p>
           <p>
-            <%= session_link speaker %>
+          <!--<%= session_link speaker %>-->
 
             <% unless speaker.twitter.blank? %>
-            <br /><a href="http://twitter.com/<%= speaker.twitter[1..-1] %>"><i class="icon-twitter"></i> <%= speaker.twitter %></a>
+            <a href="http://twitter.com/<%= speaker.twitter[1..-1] %>"><i class="icon-twitter"></i> <%= speaker.twitter %></a>
             <% end %>
           </p>
         </div>
