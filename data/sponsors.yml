@@ -15,11 +15,16 @@ diamond:
     description: "Hired gets you 5-15 job offers from 700+ VC backed companies that present opportunities to you—disclosing details about salary, signing bonus, and equity before you interview. Hired gives you the ability to source and explore career options seamlessly, in a transparent manner, and then pick the best opportunity for you."
     website: "http://hired.com/?utm_source=events&utm_medium=gogaruco&utm_campaign=gogaruby-sept_14-sponsor_logo"
 platinum:
-  - name: "Skylight"
+  - name: "Sharethrough"
     lighter_image: "sponsors/sharethrough-pages.png"
     darker_image: "sponsors/sharethrough-footer.png"
     description: "Sharethrough is building technology to power the distribution of meaningful content on the mobile web.  Named one of the “2014 Best Places to Work in the Bay Area”, talk to us if you're interested in working on everything from complex client-side workflows and analytics in Rails and CoffeeScript to real-time decisioning and auction theory in Scala."
     website: "http://www.sharethrough.com"
+  - name: "CarbonFive"
+    lighter_image: "sponsors/carbonfive.png"
+    darker_image: "sponsors/carbonfive.png"
+    description: "Carbon Five builds web and mobile products for innovative companies following a development process inspired by Agile and Lean UX. We've been creating compelling products, building teams and establishing effective and sustainable practices for more than 14 years. We work with startups at all stages, non-profit organizations, and nimble enterprise and growth companies; and we're doing it all using cutting edge technology and techniques on cross-functional teams."
+    website: "http://www.carbonfive.com"
 gold:
   - name: "Yammer"
     lighter_image: "sponsors/yammer-pages.png"
