@@ -143,8 +143,8 @@ saturday:
   - name: "The Golden Age of the Internet"
     start: "5:30"
     end: "6:00"
-    speaker: "Pat Allen"
-    image: "speakers/pallen.png"
-    description: "One of the most notable things about Ruby is its community - the passion towards writing good code, the opinions on how code should behave, the tools it produces, the people it draws to it, and yes, occasionally the arguments and drama.<br /><br />Is this something we should take for granted? Should we be actively guiding the community to behave in a particular way? What makes up a healthy community? Are there ideas and wisdom can we take from other communities? So many questions - let's see if we can find some answers!"
-    anchor: "pallen"
+    speaker: "Pat Allan"
+    image: "speakers/pallan.png"
+    description: "Congratulations. The Internet is now the centre of civilisation as we know it, and we are the ones who shape the Internet. Our skills are in high demand, we are paid well, we find our work challenging, interesting, and even sometimes fulfilling. These are the glory days of our industry, and we should soak up every minute of it!<br /><br />But with such great power comes a great deal of responsibility. Will we be looking back in the near future, wondering if we squandered our opportunities to shape the digital world accordingly?<br /><br />There's no doubt that we value humanity, intelligence, and compassion. Let's take a look at the ways our industry can ensure these values are reflected not just in the people we are, but the way we work."
+    anchor: "pallan"
 
