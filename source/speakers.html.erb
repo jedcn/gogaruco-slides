@@ -1,6 +1,5 @@
 <%= partial :heading, :locals => { page: data.titles.speakers } %>
 <div class="content intro">
-<center><h2 style="color:#d2edfb"><br>More Speakers Announced Next Week!</h2></font></center>
   <div class="master-column speakers-list">
     <% unless data.speakers.blank? %>
       <% data.speakers.all.each do |speaker| %>
@@ -8,12 +7,8 @@
           <h2><%= speaker.name %></h2>
           <%= image_tag speaker.image, alt: speaker.name %>
           <p class="bio"><%= speaker.description %></p>
-          <div>
-            <h3 style="font-style: italic; clear: both">Session: <%= speaker.session %></h3>
-            <div class="session-description"><p><%= speaker.session_details%></div>
-          </div>
           <p>
-<!--           <%= session_link speaker %> -->
+           <%= session_link speaker %>
 
             <% unless speaker.twitter.blank? %>
             <a href="http://twitter.com/<%= speaker.twitter[1..-1] %>"><i class="icon-twitter"></i> <%= speaker.twitter %></a>

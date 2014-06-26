@@ -23,7 +23,7 @@ platinum:
   - name: "CarbonFive"
     lighter_image: "sponsors/carbonfive.png"
     darker_image: "sponsors/carbonfive.png"
-    description: "Carbon Five builds web and mobile products for innovative companies following a development process inspired by Agile and Lean UX. We've been creating compelling products, building teams and establishing effective and sustainable practices for more than 14 years. We work with startups at all stages, non-profit organizations, and nimble enterprise and growth companies; and we're doing it all using cutting edge technology and techniques on cross-functional teams."
+    description: "Carbon Five builds web and mobile products for innovative companies following a development process inspired by Agile and Lean UX. We've been creating compelling products, building teams and establishing effective and sustainable practices for more than 14 years using cutting edge technology and techniques on cross-functional teams."
     website: "http://www.carbonfive.com"
 gold:
   - name: "Yammer"
