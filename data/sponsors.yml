@@ -30,6 +30,11 @@ platinum:
     darker_image: "sponsors/carbonfive.png"
     description: "Carbon Five builds web and mobile products for innovative companies following a development process inspired by Agile and Lean UX. We've been creating compelling products, building teams and establishing effective and sustainable practices for more than 14 years using cutting edge technology and techniques on cross-functional teams."
     website: "http://www.carbonfive.com"
+  - name: "Telmate"
+    lighter_image: "sponsors/telmate.png"
+    darker_image: "sponsors/telmate.png"
+    description: "We’re not your typical San Francisco Ruby development shop, but we’re pretty proud of our gig. As the third largest and fastest growing inmate communications provider, we’re rapidly grabbing market share from our competition. We rock in customer service and we kick ass in all aspects of development. Visit us: <a href='www.telmate.com'>www.telmate.com</a>."
+    website: "http://www.telmate.com"
 gold:
   - name: "Yammer"
     lighter_image: "sponsors/yammer-pages.png"
