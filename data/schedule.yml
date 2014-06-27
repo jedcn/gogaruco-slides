@@ -32,7 +32,7 @@ friday:
   - name: "Lunch"
     start: "12:00"
     end: "1:30"
-  - name: "Impossible Programs"
+  - name: "Building Board Games with Ruby"
     start: "1:30"
     end: "2:00"
     speaker: "Yonatan Bergman"
