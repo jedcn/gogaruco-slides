@@ -41,6 +41,11 @@ gold:
     darker_image: "sponsors/yammer-footer.png"
     description: "Yammer is an Enterprise Social Network that enables organizations to make transformative changes quickly by empowering employees to collaborate across departments, geographies, content and business applications. More than 5 million users, including employees from 85 percent of the Fortune 500, have adopted Yammer’s Software-as-a-Service solution."
     website: "http://www.yammer.com"
+  - name: "Wyeworks"
+    lighter_image: "sponsors/wyeworks-pages.png"
+    darker_image: "sponsors/wyeworks-footer.png"
+    description: "WyeWorks is the best way to expand your Rails team. We act as if we're part of your company, adopting your process and suggesting best practices. We are Agile, we show progress every day. We do code reviews and pair programming because quality is taken to heart. Our happy clients are our best credentials."
+    website: "http://www.wyeworks.com"
 silver:
   - name: "StickerMule"
     lighter_image: "sponsors/stickermule-pages.png"
