@@ -39,7 +39,7 @@ gold:
   - name: "Yammer"
     lighter_image: "sponsors/yammer-pages.png"
     darker_image: "sponsors/yammer-footer.png"
-    description: "Yammer is an Enterprise Social Network that enables organizations to make transformative changes quickly by empowering employees to collaborate across departments, geographies, content and business applications. More than 5 million users, including employees from 85 percent of the Fortune 500, have adopted Yammer’s Software-as-a-Service solution."
+    description: "Yammer is a Private Social Network that brings together people, conversations, content, and business data in a single location. With Yammer, you can easily stay connected to coworkers and information, collaborate with team members and make an impact at work."
     website: "http://www.yammer.com"
   - name: "Wyeworks"
     lighter_image: "sponsors/wyeworks-pages.png"
