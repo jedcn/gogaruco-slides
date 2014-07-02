@@ -37,8 +37,8 @@ platinum:
     website: "http://www.telmate.com"
 gold:
   - name: "Yammer"
-    lighter_image: "sponsors/yammer-pages.png"
-    darker_image: "sponsors/yammer-footer.png"
+    lighter_image: "sponsors/yammer.png"
+    darker_image: "sponsors/yammer.png"
     description: "Yammer is a Private Social Network that brings together people, conversations, content, and business data in a single location. With Yammer, you can easily stay connected to coworkers and information, collaborate with team members and make an impact at work."
     website: "http://www.yammer.com"
   - name: "Wyeworks"
