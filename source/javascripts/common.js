@@ -10,8 +10,15 @@ $(document).ready(function(){
 
   // schedule session descriptions
 
-  $('.sessions h3, .speaker-page-item h3').click(function() {
+
+  $('.sessions h3, .speaker-page-item h3').click(function(e) {
+    $('.session-description').fadeOut();
     $(this).siblings('.session-description').fadeToggle();
+  });
+
+  $(document).on('click', function(e) {
+    if ($(e.target).is('.sessions h3, .session-description')) return;
+    $('.session-description').fadeOut();
   });
 
   $('.session-description').prepend('<strong><i class="icon-remove"></i></strong>');
@@ -19,6 +26,7 @@ $(document).ready(function(){
   $('.session-description strong').bind('click',function() {
     $(this).closest('.session-description').fadeToggle();
   });
+
 
   $(document).keyup(function(e) {
     if (e.keyCode == 27) {

@@ -158,6 +158,10 @@ header {
       -webkit-border-radius: 1rem;
       border-radius: 1rem;
       z-index: 100;
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
       .icon-remove {
         cursor: pointer;
       }
@@ -226,10 +230,10 @@ header {
         margin: 0 1rem 1rem 0;
         width: 8rem;
         height: 7rem;
-        display: block;
+        display: table-cell;
       }
       dd {
-        display: block;
+        display: table-cell;
       }
     }
   }
