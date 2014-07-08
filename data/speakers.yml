@@ -146,7 +146,7 @@ all:
   - name: "Sarah Mei"
     image: "speakers/smei.jpg"
     description: "Sarah Mei has been doing software since before the internet had cats, and working with Ruby and JavaScript since 2006. She does consulting through her company, Ministry of Velocity, and helps run GoGaRuCo, RubyConf, and RailsConf. Sarah lives in San Francisco, near the beach, where it is never warm enough to go swimming."
-    session: "Taking over Someone Else's Open-Source Projects"
+    session: "Lightning Talks"
     session_details: "Lightning talks are back! Share your Ruby-related talk of four minutes or less with 400 of your closest friends. We welcome the wacky, the serious, the ranty, and the technical. We'll do a mini-call-for-proposals on Friday for attendees, during the conference, so watch for announcements around that. If you propose one, you'll be notified Saturday morning whether you'll be doing it that afternoon."
     twitter: "@sarahmei"
     anchor: "smei"
