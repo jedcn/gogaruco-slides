@@ -80,9 +80,10 @@ friday:
   - name: "Conference Party!"
     start: "6:30"
     end: ""
-    speaker: "Hosted by Hired"
+    speaker: "Hired"
     image: "speakers/person.png"
     description: "Details to follow, registration IS required."
+    non_speaking_event_with_details: true
 saturday:
   - name: "Reimplementing Ruby's Hash"
     start: "10:00"
@@ -159,4 +160,4 @@ saturday:
     speaker: "TBA"
     image: "speakers/person.png"
     description: "We may or may not have a second party; we'll get this sorted closer to the show :)"
-
+    non_speaking_event_with_details: true
