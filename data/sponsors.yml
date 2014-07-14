@@ -56,4 +56,10 @@ silver:
     darker_image: "sponsors/stickermule-footer.png"
     description: "Sticker Mule is the fastest and easiest way to buy custom stickers. We offer free online proofs, 5 day turnaround and free UPS Ground shipping. With print runs starting at $49, we aim to be the Internet's favorite sticker printer."
     website: "http://www.stickermule.com"
+other:
+  - name: "EdgeCast"
+    lighter_image: "sponsors/edgecase-pages.png"
+    darker_image: "sponsors/stickermule-footer.png"
+    description: "Delivering any data, anywhere, anytime, Verizon EdgeCast is the world's fastest and most reliable content delivery network. With Verizon EdgeCast, every online asset is just milliseconds away from users all over the world. Busy sites--including WordPress, Tumblr, and Yahoo! depend on our speed and acceleration for their business needs."
+    website: "http://www.edgecast.com"
 

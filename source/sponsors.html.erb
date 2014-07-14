@@ -56,5 +56,17 @@
         <% end %>
       </div>
     <% end %>
+    <% unless data.sponsors.other.blank? %>
+      <h2>Other Sponsors</h2>
+      <div>
+        <% data.sponsors.other.each do |sponsor| %>
+          <dl>
+            <dt>Speaker Lounge</dt>
+            <dt><%= link_to image_tag(sponsor.lighter_image, alt: sponsor.name) , sponsor.website%></dt>
+            <dd><%= sponsor.description %></dd>
+          </dl>
+        <% end %>
+      </div>
+    <% end %>
   </div>
 </div>
