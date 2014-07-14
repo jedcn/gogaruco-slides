@@ -222,6 +222,10 @@ header {
 .sponsors-list {
   div {
     @include outer-container;
+    h3 { 
+      text-transform: uppercase;
+      font-family: refrigerator-deluxe, sans-serif;
+    }
     dl {
       @include span-columns(6);
       @include omega(2n);

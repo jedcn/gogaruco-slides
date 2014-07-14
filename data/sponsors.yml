@@ -59,7 +59,7 @@ silver:
 other:
   - name: "EdgeCast"
     lighter_image: "sponsors/edgecase-pages.png"
-    darker_image: "sponsors/stickermule-footer.png"
     description: "Delivering any data, anywhere, anytime, Verizon EdgeCast is the world's fastest and most reliable content delivery network. With Verizon EdgeCast, every online asset is just milliseconds away from users all over the world. Busy sites--including WordPress, Tumblr, and Yahoo! depend on our speed and acceleration for their business needs."
     website: "http://www.edgecast.com"
+    other_title: "Speaker Lounge"
 
