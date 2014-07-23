@@ -39,6 +39,11 @@ platinum:
     darker_image: "sponsors/telmate.png"
     description: "We’re not your typical San Francisco Ruby development shop, but we’re pretty proud of our gig. As the third largest and fastest growing inmate communications provider, we’re rapidly grabbing market share from our competition. We rock in customer service and we kick ass in all aspects of development. Visit us: <a href='www.telmate.com'>www.telmate.com</a>."
     website: "http://www.telmate.com"
+  - name: "Pivotal Labs"
+    lighter_image: "sponsors/pivotal-pages.png"
+    darker_image: "sponsors/pivotal-footer.png"
+    description: "Pivotal Labs is the agile development services unit of Pivotal, the software company at the intersection of Big Data, PaaS and Agile. For more than 25 years, Pivotal Labs has remained at the forefront of agile development by building highly reliable, scalable software for innovative leaders and emerging companies across multiple industries."
+    website: "http://www.pivotal.com"
 gold:
   - name: "Yammer"
     lighter_image: "sponsors/yammer.png"
