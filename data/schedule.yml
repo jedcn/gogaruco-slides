@@ -1,8 +1,8 @@
 thursday:
-  - name: "Coming Soon"
+  - name: "TBA Goodness"
     start: "7:00"
     end: "10:00"
-    description: "Interested in hosting a kickoff event? Get in touch!"
+    description: "Hosted by our friends at <a href='http://www.ninefold.com'>Ninefold</a>"
   # - name: "Whiskey Tasting"
   #   start: "7:00"
   #   end: "10:00"
@@ -80,7 +80,7 @@ friday:
   - name: "Conference Party!"
     start: "6:30"
     end: ""
-    speaker: "Hired"
+    speaker: "<a href='http://hired.com/?utm_source=events&utm_medium=gogaruco&utm_campaign=gogaruby-sept_14-sponsor_logo'>Hired</a>"
     image: "speakers/person.png"
     description: "Details to follow, registration IS required."
     non_speaking_event_with_details: true
@@ -157,7 +157,7 @@ saturday:
   - name: "After Party!"
     start: "6:30"
     end: ""
-    speaker: "TBA"
+    speaker: "<a href='http://www.stitchfix.com'>Stitch Fix</a>"
     image: "speakers/person.png"
-    description: "We may or may not have a second party; we'll get this sorted closer to the show :)"
+    description: "The closing conference party will be hosted at UCSF, just downstairs from the conference. Optimized for post-conference laziness :D"
     non_speaking_event_with_details: true
