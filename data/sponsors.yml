@@ -44,6 +44,11 @@ platinum:
     darker_image: "sponsors/pivotal-footer.png"
     description: "Pivotal Labs is the agile development services unit of Pivotal, the software company at the intersection of Big Data, PaaS and Agile. For more than 25 years, Pivotal Labs has remained at the forefront of agile development by building highly reliable, scalable software for innovative leaders and emerging companies across multiple industries."
     website: "http://www.pivotal.com"
+  - name: "Ninefold"
+    lighter_image: "sponsors/ninefold.jpg"
+    darker_image: "sponsors/ninefold.jpg"
+    description: "Ninefold is a high performance Rails deployment and hosting platform built with developers in mind. Apps are easy to deploy, scale and use and we give you everything you need out of the box. We also own our infrastructure so you never have to compromise on performance."
+    website: "http://www.ninefold.com"
 gold:
   - name: "Yammer"
     lighter_image: "sponsors/yammer.png"
