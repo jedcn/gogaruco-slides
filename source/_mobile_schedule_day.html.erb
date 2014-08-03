@@ -1,7 +1,0 @@
-<% events.each do |event| %>
-  <tr class="<%= !event.speaker ? "lunch" : "" %>">
-    <td><time><%= event.start %>-<%= event.end %></time></td>
-
-    <%= partial :session, :locals => { event: event } %>
-  </tr>
-<% end %>
