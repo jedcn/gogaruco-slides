@@ -1,0 +1,9 @@
+<section data-background="#0093c7">
+  <blockquote>
+    <% if details.index('.', 500) %>
+      <%= details[0...details.index('.', 500)+1] %>
+    <% else %>
+      <%= details %>
+    <% end %>
+  </blockquote>
+</section>

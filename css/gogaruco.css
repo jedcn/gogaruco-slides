@@ -1,0 +1,12 @@
+.reveal section img {
+    border: none;
+}
+
+.reveal section img.speaker {
+    border-radius: 10rem;
+}
+
+.reveal section blockquote {
+    width: 100%
+    font-size: 40px;
+}
